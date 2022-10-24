@@ -74,7 +74,7 @@
     width: 50%;
 }
 
-/* section 2 */
+/* section 2  */
 
 .row_sect2{
     max-width: 991px;
@@ -93,4 +93,21 @@
     width: 30%;
     height: 400px ;
 }
+
+/* section 5 */
+
+.row_sect5{
+    max-width: 991px;
+    height: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column_sect5{
+    height: 800px;
+    width: 90%;
+}
+
 
