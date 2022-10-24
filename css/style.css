@@ -110,4 +110,26 @@
     width: 90%;
 }
 
+/* section 6 */
+
+.row_sect6{
+    max-width: 991px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column_sect6_first{
+    width: 30%;
+    height: 400px ;
+}
+.column_sect6_second{
+    width: calc(70%/4);
+    height: 400px;
+}
+
+
+
 
