@@ -59,15 +59,37 @@
 /* header end */
 
 /* main start */
+
+/* section 1 */
 .row_sect1{
-    display: flex;
-    height: 500px ;
+    margin: 0 auto;
+    height: 500px;
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.column_sect1{
+    height: 350px;
+    width: 50%;
+}
+
+/* section 2 */
+
+.row_sect2{
+    max-width: 991px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-.column_sect1{
-    margin: 0 auto;
-    height: 80%;
-    width: 70%;
+.column_sect2_left{
+    width: 69%;
+    height: 350px ;
+}
+.column_sect2_right{
+    width: 30%;
+    height: 350px ;
 }
