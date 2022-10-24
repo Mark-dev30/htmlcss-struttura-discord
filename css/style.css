@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
-/* background */
+/* background border */
 .orange{
     background-color: orange;
 }
@@ -35,10 +36,17 @@
     background-color: white;
 }
 
+.border{
+    border: 0.5px solid black;
+}
+
+
+
 /* header start */
 
 .row_header{
-    width: 100%;
+    margin: 0 auto;
+    max-width: 911px;
     height: 80px;
     display: flex;
     justify-content: space-around;
@@ -130,6 +138,21 @@
     height: 400px;
 }
 
+/* footer */
+
+.row_footer{
+    margin: 0 auto;
+    max-width: 911px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column_footer{
+    height: 40px;
+    width: 20%;
+}
 
 
 
