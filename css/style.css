@@ -46,10 +46,10 @@
 
 .row_header{
     margin: 0 auto;
-    max-width: 911px;
+    max-width: 1000px;
     height: 80px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -85,8 +85,8 @@
 /* section 2  */
 
 .row_sect2{
-    max-width: 991px;
-    height: 500px;
+    max-width: 1000px;
+    height: 450px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -105,8 +105,8 @@
 /* section 5 */
 
 .row_sect5{
-    max-width: 991px;
-    height: 1000px;
+    max-width: 1000px;
+    height: 850px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -115,14 +115,14 @@
 
 .column_sect5{
     height: 800px;
-    width: 90%;
+    width: 100%;
 }
 
 /* section 6 */
 
 .row_sect6{
-    max-width: 991px;
-    height: 500px;
+    max-width: 1000px;
+    height: 450px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -142,7 +142,7 @@
 
 .row_footer{
     margin: 0 auto;
-    max-width: 911px;
+    max-width: 1000px;
     height: 80px;
     display: flex;
     justify-content: space-between;
